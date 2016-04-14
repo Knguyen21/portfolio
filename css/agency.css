@@ -159,8 +159,32 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.5em
   }
 }
+
+#services{
+  background-image: url(../img/paper.jpg);
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 300px;
+}
+
+#about{
+  background-image: url(../img/skills.jpg);
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 400px;
+}
 header {
-  background-image: url(../img/homepage-desk.jpg);
+  background-image: url(../img/coffee.jpg);
   background-repeat: none;
   background-attachment: scroll;
   background-position: center center;
@@ -169,22 +193,20 @@ header {
   background-size: cover;
   -o-background-size: cover;
   text-align: center;
-  color: #fff
+  color: black;
 }
 header .intro-text {
-  padding-top: 0px;
-  padding-bottom: 150px
+  padding-top: 100px;
+  padding-bottom: 50px
 }
 header .intro-text .intro-lead-in {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: italic;
+  font-family:"Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
   font-size: 22px;
   line-height: 22px;
-  margin-bottom: 250px
+  margin-bottom: 25px
 }
 header .intro-text .intro-heading {
-  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
+  font-family:"Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
   font-weight: 700;
   font-size: 50px;
   line-height: 50px;
@@ -196,14 +218,13 @@ header .intro-text .intro-heading {
     padding-bottom: 200px
   }
   header .intro-text .intro-lead-in {
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-style: italic;
+    font-family:"Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
     font-size: 40px;
     line-height: 40px;
-    margin-bottom: 300px
+    margin-bottom: 25px
   }
   header .intro-text .intro-heading {
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:"Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 75px;
