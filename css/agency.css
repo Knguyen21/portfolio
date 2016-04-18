@@ -39,13 +39,18 @@ a.active {
 }
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 700;
+  font-weight: 500;
 }
+
+h3 {
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 200;
+}
+
 .img-centered {
   margin: 0 auto;
 }
