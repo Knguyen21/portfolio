@@ -230,20 +230,14 @@ fieldset[disabled] .btn-xl.active {
 }
 
 #about {
-  background-image: url('../img/darknight-min.jpg');
-  background-repeat: none;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+  background-color: #19334d;
   text-align: center;
-  color: white;
+  font-weight: bold;
+  color: #ffffff;
 }
 
 #portfolio {
-  background-image: url('../img/blue-min.jpg');
+  background-color: #f2f2f2;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -252,12 +246,12 @@ fieldset[disabled] .btn-xl.active {
   background-size: cover;
   -o-background-size: cover;
   text-align: center;
-  color: white;
+  color: #19334d;
 }
 
 
 #services {
-  background-image: url('../img/night-min.jpg');
+  background-color: #193366;
   background-repeat: none;
   background-attachment: scroll;
   background-position: center center;
@@ -266,11 +260,11 @@ fieldset[disabled] .btn-xl.active {
   background-size: cover;
   -o-background-size: cover;
   text-align: center;
-  color: white;
+  color: #19334d;
 }
 
 header {
-  background-image: url('../img/stars-min.jpg');
+  background-image: url('../img/balloon.jpg');
   background-repeat: none;
   background-attachment: scroll;
   background-position: center center;
@@ -278,8 +272,10 @@ header {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  text-align: center;
-  color: white;
+  text-align: left;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 2px 2px 5px #000000;
 }
 header .intro-text {
   padding-top: 200px;
@@ -322,7 +318,7 @@ header .intro-text .intro-heading {
   }
 }
 section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 section h2.section-heading {
   font-size: 40px;
@@ -339,7 +335,7 @@ section h3.section-subheading {
 }
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 80px 0;
   }
 }
 .service-heading {
@@ -584,7 +580,7 @@ section h3.section-subheading {
 }
 .team-member img {
   margin: 0 auto;
-  border: 7px solid white;
+  border: 7px solid #19334d;
 }
 .team-member h4 {
   margin-top: 25px;
@@ -598,7 +594,7 @@ aside.clients img {
   margin: 50px auto;
 }
 section#contact {
-  background-image: url('../img/brightnight-min.jpg');
+  background-color: #19334d;
   background-repeat: none;
   background-attachment: scroll;
   background-position: center center;
