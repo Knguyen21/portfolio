@@ -21,6 +21,11 @@ p {
 p.large {
   font-size: 16px;
 }
+
+.project-skill{
+  color: #19334d;
+  font-weight: bold;
+}
 a,
 a:hover,
 a:focus,
@@ -273,7 +278,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   text-align: left;
-  font-weight: bold;
+  font-weight: 100;
   color: #ffffff;
   text-shadow: 2px 2px 5px #000000;
 }
